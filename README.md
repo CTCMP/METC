@@ -1,3 +1,3 @@
-# QSKIT: Quantum Simulation toolkits
+# METC: material electrical and thermal computation
 ---
 ---
