@@ -1,25 +1,21 @@
 #!/usr/bin/env python3
-"""
-Created on 10:21 14-10-2022 
 
-@author: XY Ding
-mail to: dxy_vasp@163.com
-python3: QSKIT.py
-"""
 import os,sys
 # sys.dont_write_bytecode = True     
 
-Q_SKIT = r"""
-  ██████      ███████  ██   ██  ██  ████████     ███      ████
-██      ██    ██       ██ ██           ██       ████    ██    ██
-██   ██ ██    ███████  ███████  ██     ██         ██    ██    ██
-██      ██         ██  ██ ██    ██     ██         ██    ██    ██
-  ██████  ██  ███████  ██   ██  ██     ██         ██ ██   ████ 
+METC1_0 = r"""
+███    ███  ███████ ████████     █████    
+████  ████  ██         ██      ██ 
+██ ████ ██  █████      ██     ██     
+██  ██  ██  ██         ██      ██   
+██      ██  ███████    ██        █████   
+      1.0
+"""
 
- Developer: Xianyong Ding et al.     Tutorials: https://QSKIT.com """
+''' Developer: Xianyong Ding et al.     Tutorials: https://METC.com '''
 
 def welcome_main():
-    print(Q_SKIT)
+    print(METC)
     print("*****************************************************************")
     print(" T) Input template file                                          ")
     print("*****************************************************************")
