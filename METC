@@ -1,0 +1,8 @@
+#!/bin/sh
+# test
+ulimit -s unlimited
+filepath=$(cd `dirname $0`;pwd)
+python_path=`which python`
+
+$python_path ${filepath}/METC.py
+
